@@ -1,0 +1,135 @@
+body{
+    font-family: "Merriweather", serif;
+    margin: 0px;
+    color: #40514e
+}
+.top-container{ 
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.title-text{
+    text-align: center;
+}
+h1{
+    color:#66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Dancing Script", cursive;
+}
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.pro{
+    text-decoration: underline;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.mountain{
+ position: relative;
+ left: 460px;
+}
+.middle-container{
+    margin: 100px 0 ;
+    text-align: center;
+}
+.para{
+    width: 30%;
+    margin: auto;
+}
+.middle-container > .profile > img {
+    height: 240px;
+    width: 210px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.para{
+    line-height: 2;
+    font-size: 1.2rem;
+}
+hr{
+    border: 6px dotted #66bfbf;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+.skills{
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.4fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+.parent h2{
+    margin-top: 0;
+    text-align: left;
+    font-size: 2rem;
+}
+.parent img{
+    margin: 20px auto;
+}
+.parent p{
+    text-align: left;
+    font-size: 1.2rem;
+}
+.skills hr{
+    border: 1px solid #66bfbf;
+    border-bottom: none;
+    width: 80%;
+    margin: 0 auto;
+}
+.bottom-container{
+    background-color: #d9eaea;
+    padding: 50px 0;
+    text-align: center;
+}
+.bottom-container p{
+    width: 30%;
+    margin: 10px auto 20px auto;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.bottom-container button{
+    background-color: rgb(24, 239, 239);
+    border: 1px solid rgb(26, 192, 192);
+    border-radius: 8px;
+    height: 50px;
+    font-size: 1rem;
+}
+footer{
+    background-color: #c5e5e5;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    margin:20px 40px;
+    font-size: 1.2rem;
+}
+footer a:hover{
+    color: #088686;
+}
+footer p{
+    font-size: 1rem;
+}
